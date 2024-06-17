@@ -5,7 +5,7 @@
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
-		<version>{spring-boot.version}</version>
+		<version>3.1.2</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.microservices.project</groupId>
@@ -13,23 +13,41 @@
 	<version>0.0.1-SNAPSHOT</version>
 	<name>event-driven-microservices</name>
 	<description>Event Driven MicroServices Project</description>
+	<modules>
+		<module>twitter-to-kafka-service</module>
+	</modules>
 	<packaging>pom</packaging>
 	<properties>
 		<java.version>17</java.version>
 		<maven-compiler-plugin.version>3.11.0</maven-compiler-plugin.version>
 		<spring-boot.version>3.1.2</spring-boot.version>
+		<twitter4j.version>4.0.7</twitter4j.version>
+		<lombok.version>1.18.28</lombok.version>
 	</properties>
 	<dependencyManagement>
 		<dependencies>
 			<dependency>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-starter</artifactId>
+				<version>${spring-boot.version}</version>
 			</dependency>
 
 			<dependency>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-starter-test</artifactId>
+				<version>${spring-boot.version}</version>
 				<scope>test</scope>
+			</dependency>
+			<dependency>
+				<groupId>org.twitter4j</groupId>
+				<artifactId>twitter4j-stream</artifactId>
+				<version>${twitter4j.version}</version>
+			</dependency>
+			<dependency>
+				<groupId>org.projectlombok</groupId>
+				<artifactId>lombok</artifactId>
+				<version>${lombok.version}</version>
+				<scope>provided</scope>
 			</dependency>
 		</dependencies>
 	</dependencyManagement>

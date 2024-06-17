@@ -1,0 +1,76 @@
+2024-06-17 23:09:58 [main] INFO  c.m.p.t.t.k.s.TwitterToKafkaServiceApplication - Starting TwitterToKafkaServiceApplication using Java 17.0.11 with PID 59344 (/Users/rajataggarwal/Desktop/MyProject/event-driven-microservices/twitter-to-kafka-service/target/classes started by rajataggarwal in /Users/rajataggarwal/Desktop/MyProject/event-driven-microservices)
+2024-06-17 23:09:58 [main] INFO  c.m.p.t.t.k.s.TwitterToKafkaServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2024-06-17 23:09:59 [main] INFO  c.m.p.t.t.k.s.TwitterToKafkaServiceApplication - Started TwitterToKafkaServiceApplication in 0.404 seconds (process running for 0.542)
+2024-06-17 23:09:59 [main] INFO  c.m.p.t.t.k.s.TwitterToKafkaServiceApplication - App starts...
+2024-06-17 23:09:59 [main] INFO  c.m.p.t.t.k.s.TwitterToKafkaServiceApplication - [java, spring, microservices, kafka, elasticsearch]
+2024-06-17 23:13:00 [main] INFO  c.m.p.t.t.k.s.TwitterToKafkaServiceApplication - Starting TwitterToKafkaServiceApplication using Java 17.0.11 with PID 59545 (/Users/rajataggarwal/Desktop/MyProject/event-driven-microservices/twitter-to-kafka-service/target/classes started by rajataggarwal in /Users/rajataggarwal/Desktop/MyProject/event-driven-microservices)
+2024-06-17 23:13:00 [main] INFO  c.m.p.t.t.k.s.TwitterToKafkaServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2024-06-17 23:13:00 [main] INFO  c.m.p.t.t.k.s.TwitterToKafkaServiceApplication - Started TwitterToKafkaServiceApplication in 0.408 seconds (process running for 0.547)
+2024-06-17 23:13:00 [main] INFO  c.m.p.t.t.k.s.TwitterToKafkaServiceApplication - App starts...
+2024-06-17 23:13:00 [main] INFO  c.m.p.t.t.k.s.TwitterToKafkaServiceApplication - [java, spring, microservices, kafka, elasticsearch]
+2024-06-17 23:13:00 [main] INFO  c.m.p.t.t.k.s.TwitterToKafkaServiceApplication - Helo kafka
+2024-06-17 23:15:28 [main] INFO  c.m.p.t.t.k.s.TwitterToKafkaServiceApplication - Starting TwitterToKafkaServiceApplication using Java 17.0.11 with PID 59700 (/Users/rajataggarwal/Desktop/MyProject/event-driven-microservices/twitter-to-kafka-service/target/classes started by rajataggarwal in /Users/rajataggarwal/Desktop/MyProject/event-driven-microservices)
+2024-06-17 23:15:28 [main] INFO  c.m.p.t.t.k.s.TwitterToKafkaServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2024-06-17 23:15:29 [main] INFO  c.m.p.t.t.k.s.TwitterToKafkaServiceApplication - Started TwitterToKafkaServiceApplication in 0.394 seconds (process running for 0.531)
+2024-06-17 23:15:29 [main] INFO  c.m.p.t.t.k.s.TwitterToKafkaServiceApplication - App starts...
+2024-06-17 23:15:29 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-06-17 23:15:29 [main] ERROR o.s.boot.SpringApplication - Application run failed
+java.lang.IllegalStateException: Failed to execute CommandLineRunner
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:774)
+	at org.springframework.boot.SpringApplication.callRunners(SpringApplication.java:755)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:319)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1295)
+	at com.microservices.project.twitter.to.kafka.service.TwitterToKafkaServiceApplication.main(TwitterToKafkaServiceApplication.java:22)
+Caused by: java.lang.NullPointerException: Cannot invoke "com.microservices.project.twitter.to.kafka.service.config.TwitterToKafkaServiceConfigData.getTwitterKeywords()" because "this.twitterToKafkaServiceConfigData" is null
+	at com.microservices.project.twitter.to.kafka.service.TwitterToKafkaServiceApplication.run(TwitterToKafkaServiceApplication.java:28)
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:771)
+	... 5 common frames omitted
+2024-06-17 23:15:46 [main] INFO  c.m.p.t.t.k.s.TwitterToKafkaServiceApplication - Starting TwitterToKafkaServiceApplication using Java 17.0.11 with PID 59724 (/Users/rajataggarwal/Desktop/MyProject/event-driven-microservices/twitter-to-kafka-service/target/classes started by rajataggarwal in /Users/rajataggarwal/Desktop/MyProject/event-driven-microservices)
+2024-06-17 23:15:46 [main] INFO  c.m.p.t.t.k.s.TwitterToKafkaServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2024-06-17 23:15:46 [main] INFO  c.m.p.t.t.k.s.TwitterToKafkaServiceApplication - Started TwitterToKafkaServiceApplication in 0.402 seconds (process running for 0.54)
+2024-06-17 23:15:46 [main] INFO  c.m.p.t.t.k.s.TwitterToKafkaServiceApplication - App starts...
+2024-06-17 23:15:46 [main] INFO  c.m.p.t.t.k.s.TwitterToKafkaServiceApplication - [java, spring, microservices, kafka, elasticsearch]
+2024-06-17 23:15:46 [main] INFO  c.m.p.t.t.k.s.TwitterToKafkaServiceApplication - Helo kafka
+2024-06-17 23:15:58 [main] INFO  c.m.p.t.t.k.s.TwitterToKafkaServiceApplication - Starting TwitterToKafkaServiceApplication using Java 17.0.11 with PID 59744 (/Users/rajataggarwal/Desktop/MyProject/event-driven-microservices/twitter-to-kafka-service/target/classes started by rajataggarwal in /Users/rajataggarwal/Desktop/MyProject/event-driven-microservices)
+2024-06-17 23:15:58 [main] INFO  c.m.p.t.t.k.s.TwitterToKafkaServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2024-06-17 23:15:59 [main] INFO  c.m.p.t.t.k.s.TwitterToKafkaServiceApplication - Started TwitterToKafkaServiceApplication in 0.374 seconds (process running for 0.517)
+2024-06-17 23:15:59 [main] INFO  c.m.p.t.t.k.s.TwitterToKafkaServiceApplication - App starts...
+2024-06-17 23:15:59 [main] INFO  c.m.p.t.t.k.s.TwitterToKafkaServiceApplication - [java, spring, microservices, kafka, elasticsearch]
+2024-06-17 23:15:59 [main] INFO  c.m.p.t.t.k.s.TwitterToKafkaServiceApplication - Helo kafka
+2024-06-17 23:22:36 [main] INFO  c.m.p.t.t.k.s.TwitterToKafkaServiceApplication - Starting TwitterToKafkaServiceApplication using Java 17.0.11 with PID 60142 (/Users/rajataggarwal/Desktop/MyProject/event-driven-microservices/twitter-to-kafka-service/target/classes started by rajataggarwal in /Users/rajataggarwal/Desktop/MyProject/event-driven-microservices)
+2024-06-17 23:22:36 [main] INFO  c.m.p.t.t.k.s.TwitterToKafkaServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2024-06-17 23:22:36 [main] ERROR o.s.boot.SpringApplication - Application run failed
+java.lang.IllegalStateException: No ConfigurationProperties annotation found on  'com.microservices.project.twitter.to.kafka.service.config.TwitterToKafkaServiceConfigData'.
+	at org.springframework.util.Assert.state(Assert.java:97)
+	at org.springframework.boot.context.properties.ConfigurationPropertiesBeanRegistrar.registerBeanDefinition(ConfigurationPropertiesBeanRegistrar.java:87)
+	at org.springframework.boot.context.properties.ConfigurationPropertiesBeanRegistrar.register(ConfigurationPropertiesBeanRegistrar.java:61)
+	at org.springframework.boot.context.properties.ConfigurationPropertiesBeanRegistrar.register(ConfigurationPropertiesBeanRegistrar.java:55)
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75)
+	at org.springframework.boot.context.properties.EnableConfigurationPropertiesRegistrar.registerBeanDefinitions(EnableConfigurationPropertiesRegistrar.java:49)
+	at org.springframework.context.annotation.ImportBeanDefinitionRegistrar.registerBeanDefinitions(ImportBeanDefinitionRegistrar.java:86)
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.lambda$loadBeanDefinitionsFromRegistrars$1(ConfigurationClassBeanDefinitionReader.java:373)
+	at java.base/java.util.LinkedHashMap.forEach(LinkedHashMap.java:721)
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitionsFromRegistrars(ConfigurationClassBeanDefinitionReader.java:372)
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitionsForConfigurationClass(ConfigurationClassBeanDefinitionReader.java:148)
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitions(ConfigurationClassBeanDefinitionReader.java:120)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:427)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanDefinitionRegistry(ConfigurationClassPostProcessor.java:287)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanDefinitionRegistryPostProcessors(PostProcessorRegistrationDelegate.java:344)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:115)
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:771)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:589)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:734)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:436)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:312)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1295)
+	at com.microservices.project.twitter.to.kafka.service.TwitterToKafkaServiceApplication.main(TwitterToKafkaServiceApplication.java:24)
+2024-06-17 23:25:31 [main] INFO  c.m.p.t.t.k.s.TwitterToKafkaServiceApplication - Starting TwitterToKafkaServiceApplication using Java 17.0.11 with PID 60315 (/Users/rajataggarwal/Desktop/MyProject/event-driven-microservices/twitter-to-kafka-service/target/classes started by rajataggarwal in /Users/rajataggarwal/Desktop/MyProject/event-driven-microservices)
+2024-06-17 23:25:31 [main] INFO  c.m.p.t.t.k.s.TwitterToKafkaServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2024-06-17 23:25:32 [main] INFO  c.m.p.t.t.k.s.TwitterToKafkaServiceApplication - Started TwitterToKafkaServiceApplication in 0.405 seconds (process running for 0.547)
+2024-06-17 23:25:32 [main] INFO  c.m.p.t.t.k.s.TwitterToKafkaServiceApplication - App starts...
+2024-06-17 23:25:32 [main] INFO  c.m.p.t.t.k.s.TwitterToKafkaServiceApplication - [java, spring, microservices, kafka, elasticsearch]
+2024-06-17 23:25:32 [main] INFO  c.m.p.t.t.k.s.TwitterToKafkaServiceApplication - Helo kafka
